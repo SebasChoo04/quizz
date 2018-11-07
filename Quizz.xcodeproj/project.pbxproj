@@ -13,6 +13,14 @@
 		2515E031218FF3D400AC566D /* Quizz.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 2515E02F218FF3D400AC566D /* Quizz.xcdatamodeld */; };
 		2515E033218FF3D800AC566D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2515E032218FF3D800AC566D /* Assets.xcassets */; };
 		2515E036218FF3D800AC566D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2515E034218FF3D800AC566D /* LaunchScreen.storyboard */; };
+		4E2D195C21927918008485E1 /* StartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E2D195B21927918008485E1 /* StartViewController.swift */; };
+		4E2D195E21928732008485E1 /* Physics1ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E2D195D21928732008485E1 /* Physics1ViewController.swift */; };
+		4E2D196021928EC4008485E1 /* Physic2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E2D195F21928EC4008485E1 /* Physic2ViewController.swift */; };
+		4E2D196221929BBC008485E1 /* Physic3ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E2D196121929BBC008485E1 /* Physic3ViewController.swift */; };
+		4E2D19642192A53E008485E1 /* File.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E2D19632192A53E008485E1 /* File.swift */; };
+		4E2D19662192CF87008485E1 /* ResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E2D19652192CF87008485E1 /* ResultViewController.swift */; };
+		4E2D19682192DA9A008485E1 /* ChemQuizViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E2D19672192DA9A008485E1 /* ChemQuizViewController.swift */; };
+		4E2D196A2192DD20008485E1 /* ChemResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E2D19692192DD20008485E1 /* ChemResultViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +32,14 @@
 		2515E032218FF3D800AC566D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2515E035218FF3D800AC566D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2515E037218FF3D800AC566D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4E2D195B21927918008485E1 /* StartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartViewController.swift; sourceTree = "<group>"; };
+		4E2D195D21928732008485E1 /* Physics1ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Physics1ViewController.swift; sourceTree = "<group>"; };
+		4E2D195F21928EC4008485E1 /* Physic2ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Physic2ViewController.swift; sourceTree = "<group>"; };
+		4E2D196121929BBC008485E1 /* Physic3ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Physic3ViewController.swift; sourceTree = "<group>"; };
+		4E2D19632192A53E008485E1 /* File.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = File.swift; sourceTree = "<group>"; };
+		4E2D19652192CF87008485E1 /* ResultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultViewController.swift; sourceTree = "<group>"; };
+		4E2D19672192DA9A008485E1 /* ChemQuizViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChemQuizViewController.swift; sourceTree = "<group>"; };
+		4E2D19692192DD20008485E1 /* ChemResultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChemResultViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,6 +56,10 @@
 		2515E01C218FF3D400AC566D = {
 			isa = PBXGroup;
 			children = (
+				4E2D195F21928EC4008485E1 /* Physic2ViewController.swift */,
+				4E2D196121929BBC008485E1 /* Physic3ViewController.swift */,
+				4E2D19672192DA9A008485E1 /* ChemQuizViewController.swift */,
+				4E2D19632192A53E008485E1 /* File.swift */,
 				2515E027218FF3D400AC566D /* Quizz */,
 				2515E026218FF3D400AC566D /* Products */,
 			);
@@ -57,7 +77,11 @@
 			isa = PBXGroup;
 			children = (
 				2515E028218FF3D400AC566D /* AppDelegate.swift */,
+				4E2D19692192DD20008485E1 /* ChemResultViewController.swift */,
 				2515E02C218FF3D400AC566D /* Main.storyboard */,
+				4E2D19652192CF87008485E1 /* ResultViewController.swift */,
+				4E2D195D21928732008485E1 /* Physics1ViewController.swift */,
+				4E2D195B21927918008485E1 /* StartViewController.swift */,
 				2515E02A218FF3D400AC566D /* IntroductionViewController.swift */,
 				2515E032218FF3D800AC566D /* Assets.xcassets */,
 				2515E034218FF3D800AC566D /* LaunchScreen.storyboard */,
@@ -138,9 +162,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4E2D19682192DA9A008485E1 /* ChemQuizViewController.swift in Sources */,
 				2515E031218FF3D400AC566D /* Quizz.xcdatamodeld in Sources */,
+				4E2D195C21927918008485E1 /* StartViewController.swift in Sources */,
+				4E2D196A2192DD20008485E1 /* ChemResultViewController.swift in Sources */,
+				4E2D195E21928732008485E1 /* Physics1ViewController.swift in Sources */,
+				4E2D196021928EC4008485E1 /* Physic2ViewController.swift in Sources */,
 				2515E02B218FF3D400AC566D /* IntroductionViewController.swift in Sources */,
+				4E2D19642192A53E008485E1 /* File.swift in Sources */,
 				2515E029218FF3D400AC566D /* AppDelegate.swift in Sources */,
+				4E2D196221929BBC008485E1 /* Physic3ViewController.swift in Sources */,
+				4E2D19662192CF87008485E1 /* ResultViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
