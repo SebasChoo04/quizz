@@ -21,6 +21,8 @@
 		4E2D19662192CF87008485E1 /* ResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E2D19652192CF87008485E1 /* ResultViewController.swift */; };
 		4E2D19682192DA9A008485E1 /* ChemQuizViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E2D19672192DA9A008485E1 /* ChemQuizViewController.swift */; };
 		4E2D196A2192DD20008485E1 /* ChemResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E2D19692192DD20008485E1 /* ChemResultViewController.swift */; };
+		4EFE68DB2193EF59001BA0F8 /* BioQuizViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EFE68DA2193EF59001BA0F8 /* BioQuizViewController.swift */; };
+		4EFE68DD2193F157001BA0F8 /* BioResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EFE68DC2193F157001BA0F8 /* BioResultViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -40,6 +42,8 @@
 		4E2D19652192CF87008485E1 /* ResultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultViewController.swift; sourceTree = "<group>"; };
 		4E2D19672192DA9A008485E1 /* ChemQuizViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChemQuizViewController.swift; sourceTree = "<group>"; };
 		4E2D19692192DD20008485E1 /* ChemResultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChemResultViewController.swift; sourceTree = "<group>"; };
+		4EFE68DA2193EF59001BA0F8 /* BioQuizViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BioQuizViewController.swift; sourceTree = "<group>"; };
+		4EFE68DC2193F157001BA0F8 /* BioResultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BioResultViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,6 +91,8 @@
 				2515E034218FF3D800AC566D /* LaunchScreen.storyboard */,
 				2515E037218FF3D800AC566D /* Info.plist */,
 				2515E02F218FF3D400AC566D /* Quizz.xcdatamodeld */,
+				4EFE68DA2193EF59001BA0F8 /* BioQuizViewController.swift */,
+				4EFE68DC2193F157001BA0F8 /* BioResultViewController.swift */,
 			);
 			path = Quizz;
 			sourceTree = "<group>";
@@ -166,6 +172,7 @@
 				2515E031218FF3D400AC566D /* Quizz.xcdatamodeld in Sources */,
 				4E2D195C21927918008485E1 /* StartViewController.swift in Sources */,
 				4E2D196A2192DD20008485E1 /* ChemResultViewController.swift in Sources */,
+				4EFE68DB2193EF59001BA0F8 /* BioQuizViewController.swift in Sources */,
 				4E2D195E21928732008485E1 /* Physics1ViewController.swift in Sources */,
 				4E2D196021928EC4008485E1 /* Physic2ViewController.swift in Sources */,
 				2515E02B218FF3D400AC566D /* IntroductionViewController.swift in Sources */,
@@ -173,6 +180,7 @@
 				2515E029218FF3D400AC566D /* AppDelegate.swift in Sources */,
 				4E2D196221929BBC008485E1 /* Physic3ViewController.swift in Sources */,
 				4E2D19662192CF87008485E1 /* ResultViewController.swift in Sources */,
+				4EFE68DD2193F157001BA0F8 /* BioResultViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
