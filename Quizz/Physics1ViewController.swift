@@ -9,10 +9,8 @@
 import UIKit
 
 class Physics1ViewController: UIViewController {
-    let physicsText = " Physics is the study of the basic principles that govern the physical world around us. We'll start by looking at motion itself. ... To get the most out of physics, you'll need a solid understanding of algebra and a basic understanding of trigonometry."
     override func viewDidLoad() {
         super.viewDidLoad()
-        text.text = physicsText
         // Do any additional setup after loading the view.
     }
     @IBOutlet weak var text: UITextView!

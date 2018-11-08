@@ -13,6 +13,7 @@
 		2515E031218FF3D400AC566D /* Quizz.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 2515E02F218FF3D400AC566D /* Quizz.xcdatamodeld */; };
 		2515E033218FF3D800AC566D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2515E032218FF3D800AC566D /* Assets.xcassets */; };
 		2515E036218FF3D800AC566D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2515E034218FF3D800AC566D /* LaunchScreen.storyboard */; };
+		25444C922194A11000D5660B /* Button.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25444C912194A11000D5660B /* Button.swift */; };
 		4E2D195C21927918008485E1 /* StartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E2D195B21927918008485E1 /* StartViewController.swift */; };
 		4E2D195E21928732008485E1 /* Physics1ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E2D195D21928732008485E1 /* Physics1ViewController.swift */; };
 		4E2D196021928EC4008485E1 /* Physic2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E2D195F21928EC4008485E1 /* Physic2ViewController.swift */; };
@@ -34,6 +35,7 @@
 		2515E032218FF3D800AC566D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2515E035218FF3D800AC566D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2515E037218FF3D800AC566D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		25444C912194A11000D5660B /* Button.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Button.swift; sourceTree = "<group>"; };
 		4E2D195B21927918008485E1 /* StartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartViewController.swift; sourceTree = "<group>"; };
 		4E2D195D21928732008485E1 /* Physics1ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Physics1ViewController.swift; sourceTree = "<group>"; };
 		4E2D195F21928EC4008485E1 /* Physic2ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Physic2ViewController.swift; sourceTree = "<group>"; };
@@ -79,6 +81,7 @@
 				2515E028218FF3D400AC566D /* AppDelegate.swift */,
 				4E2D19692192DD20008485E1 /* ChemResultViewController.swift */,
 				2515E02C218FF3D400AC566D /* Main.storyboard */,
+				25444C912194A11000D5660B /* Button.swift */,
 				4E2D19652192CF87008485E1 /* ResultViewController.swift */,
 				4E2D195D21928732008485E1 /* Physics1ViewController.swift */,
 				4E2D195F21928EC4008485E1 /* Physic2ViewController.swift */,
@@ -175,6 +178,7 @@
 				4EFE68DB2193EF59001BA0F8 /* BioQuizViewController.swift in Sources */,
 				4E2D195E21928732008485E1 /* Physics1ViewController.swift in Sources */,
 				4E2D196021928EC4008485E1 /* Physic2ViewController.swift in Sources */,
+				25444C922194A11000D5660B /* Button.swift in Sources */,
 				2515E02B218FF3D400AC566D /* IntroductionViewController.swift in Sources */,
 				4E2D19642192A53E008485E1 /* File.swift in Sources */,
 				2515E029218FF3D400AC566D /* AppDelegate.swift in Sources */,

@@ -9,7 +9,7 @@
 import UIKit
 var result = 0
 class Physic3ViewController: UIViewController {
-    var chosen : [Int] = [1,1,1 ]
+    var chosen : [Int] = [1,1,1]
     @IBOutlet weak var Speed1: UIButton!
     @IBOutlet weak var Speed2: UIButton!
     @IBOutlet weak var Speed3: UIButton!
@@ -30,6 +30,15 @@ class Physic3ViewController: UIViewController {
         Time1.setTitle(physics[2].question1, for: .normal)
         Time2.setTitle(physics[2].question2, for: .normal)
         Time3.setTitle(physics[2].question3, for: .normal)
+        Speed1.layer.cornerRadius = 16
+        Speed2.layer.cornerRadius = 16
+        Speed3.layer.cornerRadius = 16
+        Distance1.layer.cornerRadius = 16
+        Distance2.layer.cornerRadius = 16
+        Distance3.layer.cornerRadius = 16
+        Time1.layer.cornerRadius = 16
+        Time2.layer.cornerRadius = 16
+        Time3.layer.cornerRadius = 16
     }
 
     
