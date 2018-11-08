@@ -26,7 +26,7 @@
                                 <constraints>
                                     <constraint firstAttribute="height" constant="144" id="ful-X6-VoT"/>
                                 </constraints>
-                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="30"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
@@ -144,12 +144,20 @@
                                     <segue destination="BYZ-38-t0r" kind="show" id="bJT-3i-yzh"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" alpha="0.5" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Tap to Continue" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XjL-Xj-Uut">
+                                <rect key="frame" x="146.5" y="811" width="121" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <gestureRecognizers/>
                         <constraints>
                             <constraint firstItem="T6r-uR-Oj8" firstAttribute="top" secondItem="3hO-5H-gdG" secondAttribute="top" id="2ll-fV-HAG"/>
+                            <constraint firstItem="XjL-Xj-Uut" firstAttribute="centerX" secondItem="3hO-5H-gdG" secondAttribute="centerX" id="7bt-lS-Urm"/>
                             <constraint firstItem="T6r-uR-Oj8" firstAttribute="centerX" secondItem="fKd-ky-44J" secondAttribute="centerX" id="MyR-Dy-Jm8"/>
+                            <constraint firstItem="4PU-fQ-x6j" firstAttribute="bottom" secondItem="XjL-Xj-Uut" secondAttribute="bottom" constant="30" id="XK0-7D-UqV"/>
                             <constraint firstItem="fKd-ky-44J" firstAttribute="top" secondItem="T6r-uR-Oj8" secondAttribute="bottom" constant="40" id="XQX-88-95m"/>
                             <constraint firstItem="T6r-uR-Oj8" firstAttribute="leading" secondItem="3hO-5H-gdG" secondAttribute="leading" id="bod-Zg-Qa0"/>
                             <constraint firstItem="fKd-ky-44J" firstAttribute="centerX" secondItem="3hO-5H-gdG" secondAttribute="centerX" id="f7E-M5-0ZV"/>
