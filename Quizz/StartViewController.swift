@@ -13,15 +13,8 @@ class StartViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
         // Do any additional setup after loading the view.
-        let tapGesture = UITapGestureRecognizer(target: self, action: #selector(self.tapGesture))
-        imgview.addGestureRecognizer(tapGesture)
-        tapGesture.numberOfTouchesRequired = 1
-        tapGesture.numberOfTapsRequired = 1
-    }
-    
-    @objc func tapGesture() {
-        performSegue(withIdentifier: "Start", sender: Any?.self)
     }
     
     
