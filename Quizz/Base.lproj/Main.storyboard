@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14313.18" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="blK-U4-1I5">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="blK-U4-1I5">
     <device id="retina6_1" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14283.14"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -49,7 +49,7 @@
                                             <segue destination="LJJ-8a-vys" kind="show" id="QKY-GA-DeI"/>
                                         </connections>
                                     </button>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GLa-xr-tDM"
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GLa-xr-tDM">
                                         <rect key="frame" x="0.0" y="111.5" width="274" height="92"/>
                                         <color key="backgroundColor" red="0.22352941176470587" green="0.24313725490196078" blue="0.25490196078431371" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="25"/>
@@ -2337,7 +2337,6 @@ Distance/ Speed</string>
         <!--Bio Quiz View Controller-->
         <scene sceneID="cFJ-UL-PdL">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="MH5-Gu-Xf8" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <viewController id="SIQ-eb-Wzm" customClass="BioQuizViewController" customModule="Quizz" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="fHy-GU-RSC">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
@@ -2600,6 +2599,7 @@ Distance/ Speed</string>
                         <outlet property="nucleus3" destination="5dp-WC-8PX" id="4ch-c6-u1r"/>
                     </connections>
                 </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="MH5-Gu-Xf8" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="2937.68115942029" y="1080.8035714285713"/>
         </scene>
@@ -2778,7 +2778,6 @@ It gives the cell a fixed shape</string>
         <image name="bio" width="200" height="200"/>
         <image name="cellwall" width="91.5" height="115"/>
         <image name="cytoplasm" width="91.5" height="115"/>
-        <image name="iPhone 8" width="375" height="667"/>
         <image name="nucleus" width="103.5" height="127"/>
         <image name="plantcell" width="347" height="166"/>
     </resources>
