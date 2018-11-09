@@ -9,7 +9,7 @@
 import UIKit
 
 class ChemQuizViewController: UIViewController {
-    var chosen : [Int] = [1,1,1 ]
+    var chosen : [Int] = [0,0,0 ]
     @IBOutlet weak var Element1: UIButton!
     @IBOutlet weak var Element2: UIButton!
     @IBOutlet weak var Element3: UIButton!

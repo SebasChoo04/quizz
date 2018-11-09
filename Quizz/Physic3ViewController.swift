@@ -9,7 +9,7 @@
 import UIKit
 var result = 0
 class Physic3ViewController: UIViewController {
-    var chosen : [Int] = [1,1,1]
+    var chosen : [Int] = [0,0,0]
     @IBOutlet weak var Speed1: UIButton!
     @IBOutlet weak var Speed2: UIButton!
     @IBOutlet weak var Speed3: UIButton!

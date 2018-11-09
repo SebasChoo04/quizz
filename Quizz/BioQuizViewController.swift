@@ -9,7 +9,7 @@
 import UIKit
 
 class BioQuizViewController: UIViewController {
-    var chosen : [Int] = [1,1,1 ]
+    var chosen : [Int] = [0,0,0 ]
     @IBOutlet weak var cellwall1: UIButton!
     @IBOutlet weak var cellwall2: UIButton!
     @IBOutlet weak var cellwall3: UIButton!
